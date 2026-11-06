@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speculative-decoding-engine"
+version = "0.1.0"
+description = "Tree-Structured Speculative Decoding Engine (Medusa/EAGLE style) with Tree-Attention Masking and Single-Pass Verification"
+authors = [{ name = "SKB-18" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.24.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["."]
+asyncio_mode = "strict"

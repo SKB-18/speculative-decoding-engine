@@ -1,0 +1,32 @@
+{
+  "autoregressive": {
+    "tokens_generated": 10,
+    "target_forward_passes": 10,
+    "elapsed_sec": 0.012,
+    "tokens_per_sec": 833.3,
+    "speedup_multiplier": 1.0
+  },
+  "tree_speculative_medusa": {
+    "tokens_generated": 10,
+    "target_forward_passes": 5,
+    "draft_tokens_evaluated": 70,
+    "draft_tokens_accepted": 5,
+    "acceptance_rate": 0.0714,
+    "mean_accepted_per_step": 1.0,
+    "forward_pass_reduction_pct": 50.0,
+    "effective_throughput_multiplier": 2.0,
+    "elapsed_sec": 0.0286,
+    "tokens_per_sec": 349.4
+  },
+  "tree_speculative_ngram": {
+    "tokens_generated": 10,
+    "target_forward_passes": 10,
+    "draft_tokens_evaluated": 4,
+    "draft_tokens_accepted": 0,
+    "acceptance_rate": 0.0,
+    "mean_accepted_per_step": 0.0,
+    "effective_throughput_multiplier": 1.0,
+    "elapsed_sec": 0.007,
+    "tokens_per_sec": 1430.3
+  }
+}
