@@ -1,9 +1,10 @@
 # Tree-Structured Speculative Decoding Engine
 
-[![Tests](https://img.shields.io/badge/tests-38%2F38%20passed-brightgreen.svg)](#)
+[![CI](https://github.com/SKB-18/speculative-decoding-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/SKB-18/speculative-decoding-engine/actions)
+[![Tests: 38 Passed](https://img.shields.io/badge/tests-38%2F38%20passed-brightgreen.svg)](#)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](#)
-[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue.svg)](#)
-[![License](https://img.shields.io/badge/license-MIT-purple.svg)](#)
+[![Python: 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](#)
+[![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](#)
 
 A high-performance, first-principles implementation of **Tree-Structured Speculative Decoding** (Medusa/EAGLE style) with causal tree-attention masks, multi-candidate parallel verification in a single forward pass, greedy and distribution-preserving stochastic samplers, and empirical throughput benchmarks in PyTorch.
 
